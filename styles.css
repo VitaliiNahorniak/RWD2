@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+}
+
+* {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.extra-small {
+	background: yellow;
+}
+
+.small {
+	background: green;
+}
+
+.medium{
+	background: red;
+}
+
+.large {
+	background: blue;
+}
+
+@media (max-width:767px) {
+	.extra-small {
+		visibility: visible;
+	}
+
+	.small {
+		visibility: hidden;
+	}
+
+	.medium{
+		visibility: hidden;
+	}
+
+	.large {
+		visibility: hidden;
+	}
+}
+
+@media (min-width:768px) {
+	.extra-small {
+		visibility: hidden;
+	}
+
+	.small {
+		visibility: visible;
+	}
+
+	.medium{
+		visibility: hidden;
+	}
+
+	.large {
+		visibility: hidden;
+	}
+}
+
+@media (min-width:1024px) {
+	.extra-small {
+		visibility: hidden;
+	}
+
+	.small {
+		visibility: hidden;
+	}
+
+	.medium{
+		visibility: visible;
+	}
+
+	.large {
+		visibility: hidden;
+	}
+}
+
+@media (min-width:1200px) {
+	.extra-small {
+		visibility: hidden;
+	}
+
+	.small {
+		visibility: hidden;
+	}
+
+	.medium{
+		visibility: hidden;
+	}
+
+	.large {
+		visibility: visible;
+	}
+}

@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+	width: 100%;
 }
 
 * {
@@ -9,18 +10,26 @@ html, body {
 
 .extra-small {
 	background: yellow;
+	position: absolute;
+	margin: 230px 30vw;
 }
 
 .small {
 	background: green;
+	position: absolute;
+	margin: 230px 30vw;
 }
 
 .medium{
 	background: red;
+	position: absolute;
+	margin: 230px 30vw;
 }
 
 .large {
 	background: blue;
+	position: absolute;
+	margin: 230px 30vw;
 }
 
 @media (max-width:767px) {
